@@ -7,21 +7,27 @@ const initialState: userInfo = {
 
   userName: "Nhut",
   fullName: "Phạm Minh Nhựt",
-  phoneNumber: "123456789",
-  email: "nhutp49@gmail.com",
+  phoneNumber: "111222333444",
+  email: "",
   password: "123456",
   role: 0,
-  avatar: "https://scontent.fsgn2-1.fna.fbcdn.net/v/t39.30808-6/251374287_946849012708805_4517610628801416846_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=aOtNEmd5F0EAX9QQEDE&_nc_ht=scontent.fsgn2-1.fna&oh=00_AT8XjhqD0QxP11qHMmMCmzJDkrNyesnpKarVXMuz3gHz8A&oe=6293D73D" 
+  avatar: "https://scontent.fsgn5-15.fna.fbcdn.net/v/t1.15752-9/280456204_850331862593722_6796225965863368502_n.jpg?_nc_cat=111&ccb=1-6&_nc_sid=ae9488&_nc_ohc=wAYWEdu1YyMAX8mmLEc&_nc_ht=scontent.fsgn5-15.fna&oh=03_AVJUg7CLF6CvgDl8DpuHzlaTg_ZM-d1JVnkERrwvoVd90Q&oe=62A6E60E"
 }
 
   export const userSlice = createSlice({
     name: 'user',
     initialState,
     reducers: {
+      login: (state, actions) => {
+        state.email = actions.payload.email
+      },
+      logout: (state) => {
+        state.email = ""
+      }
     },
   });
   
   // To able to use reducers we need to export them.
-  export const { } = userSlice.actions;
+  export const { login, logout } = userSlice.actions;
   
   export default userSlice.reducer;
