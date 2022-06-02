@@ -7,11 +7,11 @@ const initialState: userInfo = {
 
   userName: "Nhut",
   fullName: "Phạm Minh Nhựt",
-  phoneNumber: "111222333444",
-  email: "nhutp49@gmail.com",
+  phoneNumber: "123456789",
+  email: "",
   password: "123456",
   role: 0,
-  avatar: "https://scontent.fsgn2-1.fna.fbcdn.net/v/t39.30808-6/251374287_946849012708805_4517610628801416846_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=II6c6L217CgAX8hAS4B&_nc_ht=scontent.fsgn2-1.fna&oh=00_AT96GmMYu0Zo-RYG091M8yglzEVGZEBOPh6QmaKJaU3BEw&oe=6299C5FD"
+  avatar: "https://scontent.fsgn2-1.fna.fbcdn.net/v/t39.30808-6/251374287_946849012708805_4517610628801416846_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=u2RoCkWEfd8AX82sOCR&_nc_ht=scontent.fsgn2-1.fna&oh=00_AT86-q4_dplZXV3VByGH1UtpIPzNNlgIqeVktIO-b5BOMg&oe=629DBA7D"
 }
 
   export const userSlice = createSlice({
