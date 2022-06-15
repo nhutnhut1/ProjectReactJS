@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Outlet } from 'react-router';
 import { ReactComponent as Calendar1Ic } from '../../../Assets/calendar1.svg';
 import { ReactComponent as Calendar2Ic } from '../../../Assets/calendar2.svg';
 import { ReactComponent as WaitIc } from '../../../Assets/wait.svg';

@@ -100,6 +100,7 @@ export enum DisplayedColumns {
 
 }
 
+
 export interface IDeviceRow {
   deviceId: string;
   deviceName: string;

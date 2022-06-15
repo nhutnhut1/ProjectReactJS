@@ -5,13 +5,13 @@ import { userInfo } from './types';
 
 const initialState: userInfo = {
 
-  userName: "nhutnhut",
-  fullName: "Phạm Minh Nhựt",
-  phoneNumber: "0779907743",
-  email: "nhutp49@gmail.com",
-  password: "nhutnhut",
+  userName: "minhnhut",
+  fullName: "Minh Nhựt",
+  phoneNumber: "067924242",
+  email: "nhutp48@gmail.com",
+  password: "nhuntnh",
   role: 0,
-  avatar: "https://scontent.fsgn2-1.fna.fbcdn.net/v/t39.30808-6/251374287_946849012708805_4517610628801416846_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=fTnEJVBg8ZgAX91st_M&_nc_ht=scontent.fsgn2-1.fna&oh=00_AT_pzkz0BqedqfKT3bRj-06ntC-V6M-cz4rpfA8TIBDLzg&oe=62A79DBD"
+  avatar: "https://scontent.fsgn2-1.fna.fbcdn.net/v/t39.30808-6/251374287_946849012708805_4517610628801416846_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=UFFxfmnuFnYAX_zgTpx&_nc_ht=scontent.fsgn2-1.fna&oh=00_AT8YaTA4n0UKCWjbSztQJJ7dFmtXzRb43MlEsIRzugak3g&oe=62AF86BD"
 }
 
   export const userSlice = createSlice({

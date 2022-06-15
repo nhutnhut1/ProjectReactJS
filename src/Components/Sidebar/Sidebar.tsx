@@ -52,6 +52,7 @@ const Sidebar: React.FC = () => {
               <div className='menu-item__icon'>{item.icon}</div>
               <div className='menu-item__name'>{item.name}</div>
               <div className='menu-item__icon2'>{item.icon2}</div>
+
             </div>
           );
         })}

@@ -13,144 +13,144 @@ import {
 
 export const accountLog: IAccountLogRow[] = [
   {
-    userName: 'congminh@34',
+    userName: 'congminh@32',
     impactTime: '1/12/2022 15:12:17',
-    ip: '192.168.1.12',
-    act: 'Cập Nhật Thông Tin Dịch Vụ DV_01',
+    ip: '192.168.1.123',
+    act: 'Cập nhật thông tin dịch vụ DV_01',
   },
   {
-    userName: 'congminh@34',
+    userName: 'congminh@32',
     impactTime: '1/12/2022 15:12:17',
-    ip: '192.168.1.12',
-    act: 'Cập Nhật Thông Tin Dịch Vụ DV_01',
+    ip: '192.168.1.123',
+    act: 'Cập nhật thông tin dịch vụ DV_01',
   },
   {
-    userName: 'congminh@34',
+    userName: 'congminh@32',
     impactTime: '1/12/2022 15:12:17',
-    ip: '192.168.1.12',
-    act: 'Cập Nhật Thông Tin Dịch Vụ DV_01',
+    ip: '192.168.1.123',
+    act: 'Cập nhật thông tin dịch vụ DV_01',
   },
   {
-    userName: 'congminh@34',
+    userName: 'congminh@32',
     impactTime: '1/12/2022 15:12:17',
-    ip: '192.168.1.12',
-    act: 'Cập Nhật Thông Tin Dịch Vụ DV_01',
+    ip: '192.168.1.123',
+    act: 'Cập nhật thông tin dịch vụ DV_01',
   },
   {
-    userName: 'congminh@34',
+    userName: 'congminh@32',
     impactTime: '1/12/2022 15:12:17',
-    ip: '192.168.1.12',
-    act: 'Cập Nhật Thông Tin Dịch Vụ DV_01',
+    ip: '192.168.1.123',
+    act: 'Cập nhật thông tin dịch vụ DV_01',
   },
 ]
 
 export const roleList: IRoleRow[] = [
   {
-    roleName: 'Kế Toán',
-    userNumber: 5,
-    serviceDescribe: 'Thực Hiện Nhiệm Vụ Thống Kê Số Liệu Và Tổng Hợp Dữ Liệu',
+    roleName: 'Kế toán',
+    userNumber: 6,
+    serviceDescribe: 'Thực hiện nhiệm vụ thống kê số liệu và tổng hợp dữ liệu',
     roleUpdate: true,
   },
   {
-    roleName: 'Bác Sĩ',
-    userNumber: 5,
-    serviceDescribe: 'Thực Hiện Nhiệm Vụ Thống Kê Số Liệu Và Tổng Hợp Dữ Liệu',
+    roleName: 'Bác sĩ',
+    userNumber: 6,
+    serviceDescribe: 'Thực hiện nhiệm vụ thống kê số liệu và tổng hợp dữ liệu',
     roleUpdate: true,
   },
   {
-    roleName: 'Lễ Tân',
-    userNumber: 5,
-    serviceDescribe: 'Thực Hiện Nhiệm Vụ Thống Kê Số Liệu Và Tổng Hợp Dữ Liệu',
+    roleName: 'Lễ tân',
+    userNumber: 6,
+    serviceDescribe: 'Thực hiện nhiệm vụ thống kê số liệu và tổng hợp dữ liệu',
     roleUpdate: true,
   },
   {
-    roleName: 'Y Tá',
-    userNumber: 5,
-    serviceDescribe: 'Thực Hiện Nhiệm Vụ Thống Kê Số Liệu Và Tổng Hợp Dữ Liệu',
+    roleName: 'Y tá',
+    userNumber: 6,
+    serviceDescribe: 'Thực hiện nhiệm vụ thống kê số liệu và tổng hợp dữ liệu',
     roleUpdate: true,
   },
 ]
 
 export const userList: IUserRow[] = [
   {
-    userName: 'nhutnhut',
-    fullName: 'Phạm Minh Nhựt',
-    phoneNumber: '0779907743',
-    email: 'nhutp49@gmail.com',
-    role: 'Bác Sĩ',
+    userName: 'ManhThong',
+    fullName: 'Mạnh Thong',
+    phoneNumber: '0931158937',
+    email: 'manhthongg950@gmail.com',
+    role: 'Kế toán',
     isActivated: true,
     userUpdate: true,
   },
   {
-    userName: 'nhutnhut',
-    fullName: 'Phạm Minh Nhựt',
+    userName: 'minhnhut',
+    fullName: 'Minh Nhut',
     phoneNumber: '0779907743',
     email: 'nhutp49@gmail.com',
-    role: 'Bác Sĩ',
+    role: 'Kế toán',
     isActivated: true,
     userUpdate: true,
   },
   {
-    userName: 'nhutnhut',
-    fullName: 'Phạm Minh Nhựt',
+    userName: 'minhnhut',
+    fullName: 'Minh Nhut',
     phoneNumber: '0779907743',
     email: 'nhutp49@gmail.com',
-    role: 'Bác Sĩ',
-    isActivated: true,
-    userUpdate: true,
-  },
-  {
-    userName: 'nhutnhut',
-    fullName: 'Phạm Minh Nhựt',
-    phoneNumber: '0779907743',
-    email: 'nhutp49@gmail.com',
-    role: 'Bác Sĩ',
-    isActivated: true,
-    userUpdate: true,
-  },
-  {
-    userName: 'nhutnhut',
-    fullName: 'Phạm Minh Nhựt',
-    phoneNumber: '0779907743',
-    email: 'nhutp49@gmail.com',
-    role: 'Bác Sĩ',
-    isActivated: true,
-    userUpdate: true,
-  },
-  {
-    userName: 'nhutnhut',
-    fullName: 'Phạm Minh Nhựt',
-    phoneNumber: '0779907743',
-    email: 'nhutp49@gmail.com',
-    role: 'Bác Sĩ',
+    role: 'Kế toán',
     isActivated: false,
     userUpdate: true,
   },
   {
-    userName: 'nhutnhut',
-    fullName: 'Phạm Minh Nhựt',
+    userName: 'minhnhut',
+    fullName: 'Minh Nhut',
     phoneNumber: '0779907743',
     email: 'nhutp49@gmail.com',
-    role: 'Bác Sĩ',
+    role: 'Kế toán',
+    isActivated: false,
+    userUpdate: true,
+  },
+  {
+    userName: 'minhnhut',
+    fullName: 'Minh Nhut',
+    phoneNumber: '0779907743',
+    email: 'nhutp49@gmail.com',
+    role: 'Kế toán',
     isActivated: true,
     userUpdate: true,
   },
   {
-    userName: 'nhutnhut',
-    fullName: 'Phạm Minh Nhựt',
+    userName: 'minhnhut',
+    fullName: 'Minh Nhut',
     phoneNumber: '0779907743',
     email: 'nhutp49@gmail.com',
-    role: 'Bác Sĩ',
+    role: 'Kế toán',
     isActivated: false,
     userUpdate: true,
   },
   {
-    userName: 'nhutnhut',
-    fullName: 'Phạm Minh Nhựt',
+    userName: 'minhnhut',
+    fullName: 'Minh Nhut',
     phoneNumber: '0779907743',
     email: 'nhutp49@gmail.com',
-    role: 'Bác Sĩ',
+    role: 'Kế toán',
     isActivated: false,
+    userUpdate: true,
+  },
+  {
+    userName: 'minhnhut',
+    fullName: 'Minh Nhut',
+    phoneNumber: '0779907743',
+    email: 'nhutp49@gmail.com',
+    role: 'Kế toán',
+    isActivated: true,
+    userUpdate: true,
+  },
+  {
+    userName: 'minhnhut',
+    fullName: 'Minh Nhut',
+    phoneNumber: '0779907743',
+    email: 'nhutp49@gmail.com',
+    role: 'Kế toán',
+    isActivated: true,
     userUpdate: true,
   },
 ]
@@ -203,7 +203,7 @@ export const reportList: IReportRow[] = [
 export const queueTable: IQueueRow[] = [
   {
     no: 2010001,
-    customerName: 'Trần Thị Yến Nhi',
+    customerName: 'Lê Huỳnh Ái Vân',
     serviceName: [Service.Heart],
     grantTime: '14:35 - 07/11/2022',
     expireTime: '14:35 - 07/12/2022',
@@ -213,7 +213,7 @@ export const queueTable: IQueueRow[] = [
   },
   {
     no: 2010001,
-    customerName: 'Trần Thị Yến Nhi',
+    customerName: 'Trương Trọng Nhân',
     serviceName: [Service.Heart],
     grantTime: '14:35 - 07/11/2022',
     expireTime: '14:35 - 07/12/2022',
@@ -223,7 +223,7 @@ export const queueTable: IQueueRow[] = [
   },
   {
     no: 2010001,
-    customerName: 'Trần Thị Yến Nhi',
+    customerName: 'Trương Trọng Nhân',
     serviceName: [Service.Heart],
     grantTime: '14:35 - 07/11/2022',
     expireTime: '14:35 - 07/12/2022',
@@ -233,7 +233,7 @@ export const queueTable: IQueueRow[] = [
   },
   {
     no: 2010001,
-    customerName: 'Trần Thị Yến Nhi',
+    customerName: 'Trương Trọng Nhân',
     serviceName: [Service.Heart],
     grantTime: '14:35 - 07/11/2022',
     expireTime: '14:35 - 07/12/2022',
@@ -243,7 +243,7 @@ export const queueTable: IQueueRow[] = [
   },
   {
     no: 2010001,
-    customerName: 'Trần Thị Yến Nhi',
+    customerName: 'Trương Trọng Nhân',
     serviceName: [Service.Heart],
     grantTime: '14:35 - 07/11/2022',
     expireTime: '14:35 - 07/12/2022',
@@ -253,7 +253,7 @@ export const queueTable: IQueueRow[] = [
   },
   {
     no: 2010001,
-    customerName: 'Trần Thị Yến Nhi',
+    customerName: 'Trương Trọng Nhân',
     serviceName: [Service.Heart],
     grantTime: '14:35 - 07/11/2022',
     expireTime: '14:35 - 07/12/2022',
@@ -263,7 +263,7 @@ export const queueTable: IQueueRow[] = [
   },
   {
     no: 2010001,
-    customerName: 'Trần Thị Yến Nhi',
+    customerName: 'Trương Trọng Nhân',
     serviceName: [Service.Heart],
     grantTime: '14:35 - 07/11/2022',
     expireTime: '14:35 - 07/12/2022',
@@ -273,7 +273,7 @@ export const queueTable: IQueueRow[] = [
   },
   {
     no: 2010001,
-    customerName: 'Trần Thị Yến Nhi',
+    customerName: 'Trương Trọng Nhân',
     serviceName: [Service.Heart],
     grantTime: '14:35 - 07/11/2022',
     expireTime: '14:35 - 07/12/2022',
@@ -283,7 +283,7 @@ export const queueTable: IQueueRow[] = [
   },
   {
     no: 2010001,
-    customerName: 'Trần Thị Yến Nhi',
+    customerName: 'Trương Trọng Nhân',
     serviceName: [Service.Heart],
     grantTime: '14:35 - 07/11/2022',
     expireTime: '14:35 - 07/12/2022',
@@ -293,7 +293,7 @@ export const queueTable: IQueueRow[] = [
   },
   {
     no: 2010001,
-    customerName: 'Trần Thị Yến Nhi',
+    customerName: 'Trương Trọng Nhân',
     serviceName: [Service.Heart],
     grantTime: '14:35 - 07/11/2022',
     expireTime: '14:35 - 07/12/2022',
@@ -303,7 +303,7 @@ export const queueTable: IQueueRow[] = [
   },
   {
     no: 2010001,
-    customerName: 'Trần Thị Yến Nhi',
+    customerName: 'Trương Trọng Nhân',
     serviceName: [Service.Heart],
     grantTime: '14:35 - 07/11/2022',
     expireTime: '14:35 - 07/12/2022',
@@ -313,7 +313,7 @@ export const queueTable: IQueueRow[] = [
   },
   {
     no: 2010001,
-    customerName: 'Trần Thị Yến Nhi',
+    customerName: 'Trương Trọng Nhân',
     serviceName: [Service.Heart],
     grantTime: '14:35 - 07/11/2022',
     expireTime: '14:35 - 07/12/2022',
@@ -323,7 +323,7 @@ export const queueTable: IQueueRow[] = [
   },
   {
     no: 2010001,
-    customerName: 'Trần Thị Yến Nhi',
+    customerName: 'Trương Trọng Nhân',
     serviceName: [Service.Heart],
     grantTime: '14:35 - 07/11/2022',
     expireTime: '14:35 - 07/12/2022',
@@ -549,7 +549,7 @@ export const serviceDetailList: IServiceRow[] = [
   },
   {
     serviceId: 'KIO_02',
-    serviceName: 'Kiosk',
+    serviceName: 'Kiosk2',
     serviceDescribe: 'Chi tiết dịch vụ',
     isActivated: true,
     serviceDetail: false,
@@ -566,6 +566,7 @@ export const serviceDetailList: IServiceRow[] = [
   {
     serviceId: 'KIO_01',
     serviceName: 'Kiosk',
+
     serviceDescribe: 'Chi tiết dịch vụ',
     isActivated: true,
     serviceDetail: true,
@@ -574,6 +575,7 @@ export const serviceDetailList: IServiceRow[] = [
   {
     serviceId: 'KIO_01',
     serviceName: 'Kiosk',
+
     serviceDescribe: 'Chi tiết dịch vụ',
     isActivated: true,
     serviceDetail: true,
@@ -582,6 +584,7 @@ export const serviceDetailList: IServiceRow[] = [
   {
     serviceId: 'KIO_01',
     serviceName: 'Kiosk',
+
     serviceDescribe: 'Chi tiết dịch vụ',
     isActivated: false,
     serviceDetail: true,
@@ -590,6 +593,7 @@ export const serviceDetailList: IServiceRow[] = [
   {
     serviceId: 'KIO_01',
     serviceName: 'Kiosk',
+
     serviceDescribe: 'Chi tiết dịch vụ',
     isActivated: true,
     serviceDetail: true,
@@ -598,6 +602,7 @@ export const serviceDetailList: IServiceRow[] = [
   {
     serviceId: 'KIO_01',
     serviceName: 'Kiosk',
+
     serviceDescribe: 'Chi tiết dịch vụ',
     isActivated: false,
     serviceDetail: true,
@@ -606,6 +611,7 @@ export const serviceDetailList: IServiceRow[] = [
   {
     serviceId: 'KIO_01',
     serviceName: 'Kiosk',
+
     serviceDescribe: 'Chi tiết dịch vụ',
     isActivated: true,
     serviceDetail: true,
@@ -614,6 +620,7 @@ export const serviceDetailList: IServiceRow[] = [
   {
     serviceId: 'KIO_01',
     serviceName: 'Kiosk',
+
     serviceDescribe: 'Chi tiết dịch vụ',
     isActivated: true,
     serviceDetail: true,
@@ -622,6 +629,7 @@ export const serviceDetailList: IServiceRow[] = [
   {
     serviceId: 'KIO_01',
     serviceName: 'Kiosk',
+
     serviceDescribe: 'Chi tiết dịch vụ',
     isActivated: true,
     serviceDetail: true,
@@ -630,6 +638,7 @@ export const serviceDetailList: IServiceRow[] = [
   {
     serviceId: 'KIO_01',
     serviceName: 'Kiosk',
+
     serviceDescribe: 'Chi tiết dịch vụ',
     isActivated: true,
     serviceDetail: true,
@@ -638,6 +647,7 @@ export const serviceDetailList: IServiceRow[] = [
   {
     serviceId: 'KIO_01',
     serviceName: 'Kiosk',
+
     serviceDescribe: 'Chi tiết dịch vụ',
     isActivated: true,
     serviceDetail: true,
@@ -646,6 +656,7 @@ export const serviceDetailList: IServiceRow[] = [
   {
     serviceId: 'KIO_01',
     serviceName: 'Kiosk',
+
     serviceDescribe: 'Chi tiết dịch vụ',
     isActivated: true,
     serviceDetail: true,
@@ -654,6 +665,7 @@ export const serviceDetailList: IServiceRow[] = [
   {
     serviceId: 'KIO_01',
     serviceName: 'Kiosk',
+
     serviceDescribe: 'Chi tiết dịch vụ',
     isActivated: true,
     serviceDetail: true,
@@ -662,6 +674,7 @@ export const serviceDetailList: IServiceRow[] = [
   {
     serviceId: 'KIO_01',
     serviceName: 'Kiosk',
+
     serviceDescribe: 'Chi tiết dịch vụ',
     isActivated: true,
     serviceDetail: true,
@@ -670,6 +683,7 @@ export const serviceDetailList: IServiceRow[] = [
   {
     serviceId: 'KIO_01',
     serviceName: 'Kiosk',
+
     serviceDescribe: 'Chi tiết dịch vụ',
     isActivated: true,
     serviceDetail: true,
@@ -677,24 +691,24 @@ export const serviceDetailList: IServiceRow[] = [
   },
 ];
 export const queueList: IServiceQueue[] = [
-  { no: 292929, queueStatus: QueueStatus.pending },
-  { no: 292929, queueStatus: QueueStatus.pending },
+  { no: 202020, queueStatus: QueueStatus.pending },
+  { no: 202020, queueStatus: QueueStatus.pending },
   { no: 101010, queueStatus: QueueStatus.pending },
   { no: 101010, queueStatus: QueueStatus.pending },
-  { no: 292929, queueStatus: QueueStatus.used },
-  { no: 292929, queueStatus: QueueStatus.used },
+  { no: 202020, queueStatus: QueueStatus.used },
+  { no: 202020, queueStatus: QueueStatus.used },
   { no: 333333, queueStatus: QueueStatus.used },
   { no: 333333, queueStatus: QueueStatus.pending },
-  { no: 292929, queueStatus: QueueStatus.pending },
+  { no: 202020, queueStatus: QueueStatus.pending },
   { no: 444444, queueStatus: QueueStatus.pending },
   { no: 444444, queueStatus: QueueStatus.aborted },
-  { no: 292929, queueStatus: QueueStatus.aborted },
-  { no: 292929, queueStatus: QueueStatus.aborted },
-  { no: 292929, queueStatus: QueueStatus.aborted },
+  { no: 202020, queueStatus: QueueStatus.aborted },
+  { no: 202020, queueStatus: QueueStatus.aborted },
+  { no: 202020, queueStatus: QueueStatus.aborted },
   { no: 929292, queueStatus: QueueStatus.aborted },
   { no: 929292, queueStatus: QueueStatus.pending },
-  { no: 292929, queueStatus: QueueStatus.pending },
-  { no: 292929, queueStatus: QueueStatus.pending },
+  { no: 202020, queueStatus: QueueStatus.pending },
+  { no: 202020, queueStatus: QueueStatus.pending },
 ];
 
 export const activeStatus = ['Tất cả', 'Hoạt động', 'Ngưng hoạt động'];
